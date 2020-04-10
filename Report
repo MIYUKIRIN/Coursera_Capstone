@@ -1,0 +1,19 @@
+1 Introduction
+With the rise of food delivery companies like Seamless and Uber Eats, there are more delivery people on the streets, 
+especially in crowded downtown areas. Deliverymen earn money by charging delivery fees set by delivery companies and merchants. 
+But in most cities, restaurants or drink shops are not evenly distributed. Some neighborhoods have a high concentration of 
+restaurants and coffee shops, which means that delivery people in the neighborhood get more delivery orders, while others 
+may get only a few delivery orders. So if coming to a neighborhood which has only a few restaurants signed up on the delivery 
+websites because of the last order he got, the deliveryman may waste more time on waiting for next order or coming back to 
+downtown. It is unfair for deliverymen that earning less money because of meeting this kind of situation. 
+
+In order to solve this problem, in Manhattan, for example, I divided the neighborhoods into two categories based on the number 
+of restaurants and coffee shops in the neighborhood dense-order district and non-dense-order district. If a deliveryman leave 
+dense-order district for non-dense-order district due to his last order, he can charge a number of extra delivery fees.
+
+2 Data preparation
+(1)Download data about the neighborhoods in New York City, extract useful data and transform it into pandas dataframe.
+(2)Explore data of neighborhoods in Manhattan and use Foursquare lab to find out the venues in each neighborhood.
+(3)Extract restaurants and drink shops by using the category column.
+(4)Separate the neighborhoods according to the number of restaurants and drink shops
+(5)Use the data about different kinds of neighborhoods to find a better way to calculate the delivery fees.
